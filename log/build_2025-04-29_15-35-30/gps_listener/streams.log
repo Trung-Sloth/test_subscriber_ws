@@ -1,0 +1,11 @@
+[0.055s] Invoking command in '/home/trung/test_subscriber_ws/build/gps_listener': CMAKE_PREFIX_PATH=/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --build /home/trung/test_subscriber_ws/build/gps_listener -- -j4 -l4
+[0.268s] [35m[1mConsolidate compiler generated dependencies of target gps_subscriber[0m
+[0.380s] [ 50%] [32mBuilding CXX object CMakeFiles/gps_subscriber.dir/src/gps_subscriber.cpp.o[0m
+[2.105s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/point.hpp: No such file or directory
+[2.106s]     2 | #include [01;31m[K"geometry_msgs/msg/point.hpp"[m[K
+[2.106s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.107s] compilation terminated.
+[2.117s] gmake[2]: *** [CMakeFiles/gps_subscriber.dir/build.make:76: CMakeFiles/gps_subscriber.dir/src/gps_subscriber.cpp.o] Error 1
+[2.119s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gps_subscriber.dir/all] Error 2
+[2.119s] gmake: *** [Makefile:146: all] Error 2
+[2.128s] Invoked command in '/home/trung/test_subscriber_ws/build/gps_listener' returned '2': CMAKE_PREFIX_PATH=/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --build /home/trung/test_subscriber_ws/build/gps_listener -- -j4 -l4

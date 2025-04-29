@@ -1,0 +1,143 @@
+[0.540s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.540s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffae85e890>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffae85e3e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffae85e3e0>>, mixin_verb=('build',))
+[1.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.605s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/trung/test_subscriber_ws'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_listener) by extensions ['ignore', 'ignore_ament_install']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_listener) by extension 'ignore'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_listener) by extension 'ignore_ament_install'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_listener) by extensions ['colcon_pkg']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_listener) by extension 'colcon_pkg'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_listener) by extensions ['colcon_meta']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_listener) by extension 'colcon_meta'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_listener) by extensions ['ros']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_listener) by extension 'ros'
+[1.688s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_listener' with type 'ros.ament_cmake' and name 'gps_listener'
+[1.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.833s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.833s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.844s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/trung/test_subscriber_ws/install
+[1.846s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/trung/map_listener_ws/install
+[1.857s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[1.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'gps_listener' build argument 'cmake_args' from command line to 'None'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'gps_listener' build argument 'cmake_target' from command line to 'None'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'gps_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'gps_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'gps_listener' build argument 'cmake_clean_first' from command line to 'False'
+[2.086s] Level 5:colcon.colcon_core.verb:set package 'gps_listener' build argument 'cmake_force_configure' from command line to 'False'
+[2.086s] Level 5:colcon.colcon_core.verb:set package 'gps_listener' build argument 'ament_cmake_args' from command line to 'None'
+[2.086s] Level 5:colcon.colcon_core.verb:set package 'gps_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[2.086s] Level 5:colcon.colcon_core.verb:set package 'gps_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.086s] DEBUG:colcon.colcon_core.verb:Building package 'gps_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/trung/test_subscriber_ws/build/gps_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/trung/test_subscriber_ws/install/gps_listener', 'merge_install': False, 'path': '/home/trung/test_subscriber_ws/src/gps_listener', 'symlink_install': False, 'test_result_base': None}
+[2.087s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.092s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/trung/test_subscriber_ws/src/gps_listener' with build type 'ament_cmake'
+[2.092s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/trung/test_subscriber_ws/src/gps_listener'
+[2.103s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.104s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.104s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/trung/test_subscriber_ws/build/gps_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --build /home/trung/test_subscriber_ws/build/gps_listener -- -j4 -l4
+[39.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/trung/test_subscriber_ws/build/gps_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --build /home/trung/test_subscriber_ws/build/gps_listener -- -j4 -l4
+[40.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/trung/test_subscriber_ws/build/gps_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --install /home/trung/test_subscriber_ws/build/gps_listener
+[40.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_listener)
+[40.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/trung/test_subscriber_ws/build/gps_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --install /home/trung/test_subscriber_ws/build/gps_listener
+[40.095s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener' for CMake module files
+[40.098s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener' for CMake config files
+[40.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_listener', 'cmake_prefix_path')
+[40.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/hook/cmake_prefix_path.ps1'
+[40.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/hook/cmake_prefix_path.dsv'
+[40.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/hook/cmake_prefix_path.sh'
+[40.111s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener/lib'
+[40.112s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener/bin'
+[40.113s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener/lib/pkgconfig/gps_listener.pc'
+[40.114s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener/lib/python3.10/site-packages'
+[40.115s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener/bin'
+[40.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.ps1'
+[40.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.dsv'
+[40.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.sh'
+[40.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.bash'
+[40.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.zsh'
+[40.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/trung/test_subscriber_ws/install/gps_listener/share/colcon-core/packages/gps_listener)
+[40.137s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_listener)
+[40.138s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener' for CMake module files
+[40.142s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener' for CMake config files
+[40.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_listener', 'cmake_prefix_path')
+[40.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/hook/cmake_prefix_path.ps1'
+[40.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/hook/cmake_prefix_path.dsv'
+[40.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/hook/cmake_prefix_path.sh'
+[40.152s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener/lib'
+[40.153s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener/bin'
+[40.153s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener/lib/pkgconfig/gps_listener.pc'
+[40.155s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener/lib/python3.10/site-packages'
+[40.156s] Level 1:colcon.colcon_core.environment:checking '/home/trung/test_subscriber_ws/install/gps_listener/bin'
+[40.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.ps1'
+[40.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.dsv'
+[40.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.sh'
+[40.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.bash'
+[40.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.zsh'
+[40.173s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/trung/test_subscriber_ws/install/gps_listener/share/colcon-core/packages/gps_listener)
+[40.174s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[40.176s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[40.177s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[40.177s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[40.201s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[40.201s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[40.201s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[40.207s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[40.207s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[40.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/trung/test_subscriber_ws/install/local_setup.ps1'
+[40.214s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/trung/test_subscriber_ws/install/_local_setup_util_ps1.py'
+[40.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/trung/test_subscriber_ws/install/setup.ps1'
+[40.229s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/trung/test_subscriber_ws/install/local_setup.sh'
+[40.232s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/trung/test_subscriber_ws/install/_local_setup_util_sh.py'
+[40.235s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/trung/test_subscriber_ws/install/setup.sh'
+[40.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/trung/test_subscriber_ws/install/local_setup.bash'
+[40.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/trung/test_subscriber_ws/install/setup.bash'
+[40.249s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/trung/test_subscriber_ws/install/local_setup.zsh'
+[40.251s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/trung/test_subscriber_ws/install/setup.zsh'

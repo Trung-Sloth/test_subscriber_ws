@@ -1,0 +1,198 @@
+[0.000000] (-) TimerEvent: {}
+[0.001873] (gps_listener) JobQueued: {'identifier': 'gps_listener', 'dependencies': OrderedDict()}
+[0.002652] (gps_listener) JobStarted: {'identifier': 'gps_listener'}
+[0.045473] (gps_listener) JobProgress: {'identifier': 'gps_listener', 'progress': 'cmake'}
+[0.048814] (gps_listener) JobProgress: {'identifier': 'gps_listener', 'progress': 'build'}
+[0.052697] (gps_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/trung/test_subscriber_ws/build/gps_listener', '--', '-j4', '-l4'], 'cwd': '/home/trung/test_subscriber_ws/build/gps_listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'trung'), ('SSH_CLIENT', '172.20.10.3 34820 22'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/trung'), ('OLDPWD', '/home/trung/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5ac4af2b-8d10-4759-ab4b-abf398d5841e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/trung/map_listener_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'trung'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/trung/.local/bin:/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/trung/.local/bin:/home/trung/.local/bin:/opt/ros/humble/bin:/home/trung/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-33d2050e3b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/trung/test_subscriber_ws/build/gps_listener'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 34820 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/trung/map_listener_ws/install/firebase_interface/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble')]), 'shell': False}
+[0.098544] (-) TimerEvent: {}
+[0.199307] (-) TimerEvent: {}
+[0.265842] (gps_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gps_subscriber\x1b[0m\n'}
+[0.299544] (-) TimerEvent: {}
+[0.378296] (gps_listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gps_subscriber.dir/src/gps_subscriber.cpp.o\x1b[0m\n'}
+[0.399757] (-) TimerEvent: {}
+[0.500608] (-) TimerEvent: {}
+[0.601529] (-) TimerEvent: {}
+[0.702244] (-) TimerEvent: {}
+[0.803003] (-) TimerEvent: {}
+[0.903727] (-) TimerEvent: {}
+[1.004451] (-) TimerEvent: {}
+[1.105243] (-) TimerEvent: {}
+[1.206068] (-) TimerEvent: {}
+[1.306909] (-) TimerEvent: {}
+[1.423908] (-) TimerEvent: {}
+[1.524674] (-) TimerEvent: {}
+[1.625451] (-) TimerEvent: {}
+[1.726169] (-) TimerEvent: {}
+[1.826894] (-) TimerEvent: {}
+[1.927643] (-) TimerEvent: {}
+[2.028370] (-) TimerEvent: {}
+[2.129154] (-) TimerEvent: {}
+[2.230032] (-) TimerEvent: {}
+[2.330839] (-) TimerEvent: {}
+[2.431810] (-) TimerEvent: {}
+[2.532592] (-) TimerEvent: {}
+[2.633492] (-) TimerEvent: {}
+[2.734293] (-) TimerEvent: {}
+[2.835089] (-) TimerEvent: {}
+[2.935898] (-) TimerEvent: {}
+[3.036805] (-) TimerEvent: {}
+[3.137729] (-) TimerEvent: {}
+[3.238567] (-) TimerEvent: {}
+[3.339402] (-) TimerEvent: {}
+[3.440334] (-) TimerEvent: {}
+[3.541138] (-) TimerEvent: {}
+[3.642119] (-) TimerEvent: {}
+[3.743037] (-) TimerEvent: {}
+[3.844075] (-) TimerEvent: {}
+[3.944914] (-) TimerEvent: {}
+[4.045829] (-) TimerEvent: {}
+[4.146630] (-) TimerEvent: {}
+[4.247553] (-) TimerEvent: {}
+[4.348342] (-) TimerEvent: {}
+[4.449188] (-) TimerEvent: {}
+[4.550096] (-) TimerEvent: {}
+[4.650955] (-) TimerEvent: {}
+[4.751929] (-) TimerEvent: {}
+[4.852758] (-) TimerEvent: {}
+[4.953577] (-) TimerEvent: {}
+[5.054359] (-) TimerEvent: {}
+[5.155189] (-) TimerEvent: {}
+[5.256263] (-) TimerEvent: {}
+[5.357163] (-) TimerEvent: {}
+[5.458076] (-) TimerEvent: {}
+[5.558871] (-) TimerEvent: {}
+[5.659703] (-) TimerEvent: {}
+[5.760522] (-) TimerEvent: {}
+[5.861346] (-) TimerEvent: {}
+[5.962192] (-) TimerEvent: {}
+[6.063002] (-) TimerEvent: {}
+[6.163859] (-) TimerEvent: {}
+[6.264736] (-) TimerEvent: {}
+[6.365584] (-) TimerEvent: {}
+[6.466383] (-) TimerEvent: {}
+[6.567228] (-) TimerEvent: {}
+[6.668124] (-) TimerEvent: {}
+[6.768954] (-) TimerEvent: {}
+[6.869798] (-) TimerEvent: {}
+[6.970614] (-) TimerEvent: {}
+[7.071479] (-) TimerEvent: {}
+[7.172314] (-) TimerEvent: {}
+[7.273128] (-) TimerEvent: {}
+[7.373982] (-) TimerEvent: {}
+[7.474839] (-) TimerEvent: {}
+[7.575722] (-) TimerEvent: {}
+[7.676543] (-) TimerEvent: {}
+[7.777421] (-) TimerEvent: {}
+[7.878214] (-) TimerEvent: {}
+[7.979072] (-) TimerEvent: {}
+[8.079877] (-) TimerEvent: {}
+[8.180684] (-) TimerEvent: {}
+[8.281524] (-) TimerEvent: {}
+[8.382330] (-) TimerEvent: {}
+[8.483132] (-) TimerEvent: {}
+[8.583939] (-) TimerEvent: {}
+[8.684754] (-) TimerEvent: {}
+[8.785569] (-) TimerEvent: {}
+[8.886406] (-) TimerEvent: {}
+[8.987240] (-) TimerEvent: {}
+[9.088088] (-) TimerEvent: {}
+[9.188916] (-) TimerEvent: {}
+[9.289795] (-) TimerEvent: {}
+[9.390652] (-) TimerEvent: {}
+[9.491445] (-) TimerEvent: {}
+[9.592247] (-) TimerEvent: {}
+[9.693062] (-) TimerEvent: {}
+[9.793949] (-) TimerEvent: {}
+[9.894816] (-) TimerEvent: {}
+[9.995631] (-) TimerEvent: {}
+[10.096437] (-) TimerEvent: {}
+[10.197257] (-) TimerEvent: {}
+[10.298192] (-) TimerEvent: {}
+[10.399056] (-) TimerEvent: {}
+[10.499897] (-) TimerEvent: {}
+[10.600709] (-) TimerEvent: {}
+[10.701535] (-) TimerEvent: {}
+[10.802389] (-) TimerEvent: {}
+[10.903203] (-) TimerEvent: {}
+[11.004009] (-) TimerEvent: {}
+[11.104807] (-) TimerEvent: {}
+[11.205695] (-) TimerEvent: {}
+[11.296914] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.298269] (gps_listener) StderrLine: {'line': b'   26 |     rclcpp::Subscription<\x1b[01;31m\x1b[Kgeometry_msgs\x1b[m\x1b[K::msg::Point>::SharedPtr subscription_;\n'}
+[11.298800] (gps_listener) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.299217] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[11.300804] (gps_listener) StderrLine: {'line': b'   26 |     rclcpp::Subscription<geometry_msgs::msg::Point\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[11.301314] (gps_listener) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.302011] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[11.303795] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[11.304613] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[11.305406] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[11.306661] (-) TimerEvent: {}
+[11.307334] (gps_listener) StderrLine: {'line': b'   26 |     rclcpp::Subscription<geometry_msgs::msg::Point>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[11.308081] (gps_listener) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.308772] (gps_listener) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[11.309325] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.309904] (gps_listener) StderrLine: {'line': b'   26 |     rclcpp::Subscription<geometry_msgs::msg::Point>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[11.310415] (gps_listener) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.310916] (gps_listener) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[11.337240] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KGPSSubscriber::GPSSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.338373] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:12:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.339431] (gps_listener) StderrLine: {'line': b'   12 |         \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::std>(\n'}
+[11.340100] (gps_listener) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.340797] (gps_listener) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[11.341455] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:12:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.342020] (gps_listener) StderrLine: {'line': b'   12 |         subscription_ = this->create_subscription<std_msgs::msg::\x1b[01;31m\x1b[Kstd\x1b[m\x1b[K>(\n'}
+[11.342487] (gps_listener) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.342927] (gps_listener) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/csignal:41\x1b[m\x1b[K,\n'}
+[11.343370] (gps_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[11.343824] (gps_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[11.344307] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h:278:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[11.344739] (gps_listener) StderrLine: {'line': b'  278 | namespace \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K\n'}
+[11.345166] (gps_listener) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.359918] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:12:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KGPSSubscriber::create_subscription<<expression error> >(const char [9], int, std::_Bind_helper<false, void (GPSSubscriber::*)(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >), GPSSubscriber*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.361068] (gps_listener) StderrLine: {'line': b'   12 |         subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<std_msgs::msg::std>(\x1b[m\x1b[K\n'}
+[11.361713] (gps_listener) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.362198] (gps_listener) StderrLine: {'line': b'   13 | \x1b[01;31m\x1b[K            "gps_data", 10, std::bind(&GPSSubscriber::topic_callback, this, _1))\x1b[m\x1b[K;\n'}
+[11.362627] (gps_listener) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.363081] (gps_listener) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[11.363578] (gps_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[11.364190] (gps_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.364657] (gps_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[11.365162] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.365727] (gps_listener) StderrLine: {'line': b'  219 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[11.366156] (gps_listener) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.366576] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.367013] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:12:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[11.367445] (gps_listener) StderrLine: {'line': b'   12 |         subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<std_msgs::msg::std>(\x1b[m\x1b[K\n'}
+[11.367889] (gps_listener) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.368333] (gps_listener) StderrLine: {'line': b'   13 | \x1b[01;31m\x1b[K            "gps_data", 10, std::bind(&GPSSubscriber::topic_callback, this, _1))\x1b[m\x1b[K;\n'}
+[11.368766] (gps_listener) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.372927] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GPSSubscriber::topic_callback(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.373631] (gps_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:17:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.374181] (gps_listener) StderrLine: {'line': b'   17 |     void topic_callback(\x1b[01;35m\x1b[Kconst std_msgs::msg::Float32::SharedPtr msg\x1b[m\x1b[K)\n'}
+[11.374811] (gps_listener) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.406802] (-) TimerEvent: {}
+[11.507602] (-) TimerEvent: {}
+[11.608465] (-) TimerEvent: {}
+[11.709293] (-) TimerEvent: {}
+[11.810133] (-) TimerEvent: {}
+[11.911006] (-) TimerEvent: {}
+[12.011792] (-) TimerEvent: {}
+[12.112592] (-) TimerEvent: {}
+[12.213519] (-) TimerEvent: {}
+[12.315828] (-) TimerEvent: {}
+[12.416859] (-) TimerEvent: {}
+[12.517762] (-) TimerEvent: {}
+[12.618567] (-) TimerEvent: {}
+[12.719363] (-) TimerEvent: {}
+[12.820141] (-) TimerEvent: {}
+[12.920996] (-) TimerEvent: {}
+[13.021869] (-) TimerEvent: {}
+[13.122700] (-) TimerEvent: {}
+[13.158232] (gps_listener) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gps_subscriber.dir/build.make:76: CMakeFiles/gps_subscriber.dir/src/gps_subscriber.cpp.o] Error 1\n'}
+[13.159289] (gps_listener) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gps_subscriber.dir/all] Error 2\n'}
+[13.160317] (gps_listener) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.167773] (gps_listener) CommandEnded: {'returncode': 2}
+[13.223683] (-) TimerEvent: {}
+[13.226770] (gps_listener) JobEnded: {'identifier': 'gps_listener', 'rc': 2}
+[13.239355] (-) EventReactorShutdown: {}

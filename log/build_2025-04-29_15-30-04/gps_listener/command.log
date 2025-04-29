@@ -1,0 +1,2 @@
+Invoking command in '/home/trung/test_subscriber_ws/build/gps_listener': CMAKE_PREFIX_PATH=/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --build /home/trung/test_subscriber_ws/build/gps_listener -- -j4 -l4
+Invoked command in '/home/trung/test_subscriber_ws/build/gps_listener' returned '2': CMAKE_PREFIX_PATH=/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --build /home/trung/test_subscriber_ws/build/gps_listener -- -j4 -l4

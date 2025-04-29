@@ -1,0 +1,26 @@
+[0.066s] Invoking command in '/home/trung/test_subscriber_ws/build/gps_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --build /home/trung/test_subscriber_ws/build/gps_listener -- -j4 -l4
+[0.261s] [35m[1mConsolidate compiler generated dependencies of target gps_subscriber[0m
+[0.374s] [ 50%] [32mBuilding CXX object CMakeFiles/gps_subscriber.dir/src/gps_subscriber.cpp.o[0m
+[35.865s] [100%] [32m[1mLinking CXX executable gps_subscriber[0m
+[37.819s] [100%] Built target gps_subscriber
+[37.863s] Invoked command in '/home/trung/test_subscriber_ws/build/gps_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --build /home/trung/test_subscriber_ws/build/gps_listener -- -j4 -l4
+[37.909s] Invoking command in '/home/trung/test_subscriber_ws/build/gps_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --install /home/trung/test_subscriber_ws/build/gps_listener
+[37.939s] -- Install configuration: ""
+[37.940s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/ament_index/resource_index/package_run_dependencies/gps_listener
+[37.941s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/ament_index/resource_index/parent_prefix_path/gps_listener
+[37.941s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/environment/ament_prefix_path.sh
+[37.942s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/environment/ament_prefix_path.dsv
+[37.942s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/environment/path.sh
+[37.943s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/environment/path.dsv
+[37.943s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/local_setup.bash
+[37.944s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/local_setup.sh
+[37.944s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/local_setup.zsh
+[37.945s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/local_setup.dsv
+[37.945s] -- Installing: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.dsv
+[37.946s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/ament_index/resource_index/packages/gps_listener
+[37.947s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/cmake/gps_listenerConfig.cmake
+[37.947s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/cmake/gps_listenerConfig-version.cmake
+[37.948s] -- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.xml
+[37.949s] -- Installing: /home/trung/test_subscriber_ws/install/gps_listener/lib/gps_listener/gps_subscriber
+[37.983s] -- Set runtime path of "/home/trung/test_subscriber_ws/install/gps_listener/lib/gps_listener/gps_subscriber" to ""
+[37.989s] Invoked command in '/home/trung/test_subscriber_ws/build/gps_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --install /home/trung/test_subscriber_ws/build/gps_listener

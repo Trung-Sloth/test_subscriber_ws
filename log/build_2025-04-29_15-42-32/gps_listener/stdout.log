@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target gps_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gps_subscriber.dir/src/gps_subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable gps_subscriber[0m
+[100%] Built target gps_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/ament_index/resource_index/package_run_dependencies/gps_listener
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/ament_index/resource_index/parent_prefix_path/gps_listener
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/environment/ament_prefix_path.sh
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/environment/path.sh
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/environment/path.dsv
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/local_setup.bash
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/local_setup.sh
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/local_setup.zsh
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/local_setup.dsv
+-- Installing: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.dsv
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/ament_index/resource_index/packages/gps_listener
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/cmake/gps_listenerConfig.cmake
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/cmake/gps_listenerConfig-version.cmake
+-- Up-to-date: /home/trung/test_subscriber_ws/install/gps_listener/share/gps_listener/package.xml
+-- Installing: /home/trung/test_subscriber_ws/install/gps_listener/lib/gps_listener/gps_subscriber
+-- Set runtime path of "/home/trung/test_subscriber_ws/install/gps_listener/lib/gps_listener/gps_subscriber" to ""

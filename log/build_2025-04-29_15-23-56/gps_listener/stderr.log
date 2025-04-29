@@ -1,0 +1,7 @@
+[01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/point.hpp: No such file or directory
+    2 | #include [01;31m[K"geometry_msgs/msg/point.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/gps_subscriber.dir/build.make:76: CMakeFiles/gps_subscriber.dir/src/gps_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gps_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

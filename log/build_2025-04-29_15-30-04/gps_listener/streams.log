@@ -1,0 +1,60 @@
+[0.064s] Invoking command in '/home/trung/test_subscriber_ws/build/gps_listener': CMAKE_PREFIX_PATH=/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --build /home/trung/test_subscriber_ws/build/gps_listener -- -j4 -l4
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target gps_subscriber[0m
+[0.376s] [ 50%] [32mBuilding CXX object CMakeFiles/gps_subscriber.dir/src/gps_subscriber.cpp.o[0m
+[11.295s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[11.296s]    26 |     rclcpp::Subscription<[01;31m[Kgeometry_msgs[m[K::msg::Point>::SharedPtr subscription_;
+[11.296s]       |                          [01;31m[K^~~~~~~~~~~~~[m[K
+[11.298s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.298s]    26 |     rclcpp::Subscription<geometry_msgs::msg::Point[01;31m[K>[m[K::SharedPtr subscription_;
+[11.299s]       |                                                   [01;31m[K^[m[K
+[11.300s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[11.302s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[11.302s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[11.303s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[11.305s]    26 |     rclcpp::Subscription<geometry_msgs::msg::Point>::[01;31m[KSharedPtr[m[K subscription_;
+[11.306s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[11.306s]       |                                                               [32m[K;[m[K
+[11.307s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:26:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[11.307s]    26 |     rclcpp::Subscription<geometry_msgs::msg::Point>::SharedPtr [01;31m[Ksubscription_[m[K;
+[11.308s]       |                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[11.308s]       |                                                                [32m[Krmw_subscription_t[m[K
+[11.335s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:[m[K In constructor ‘[01m[KGPSSubscriber::GPSSubscriber()[m[K’:
+[11.336s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[11.337s]    12 |         [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::std>(
+[11.338s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[11.338s]       |         [32m[Krmw_subscription_t[m[K
+[11.339s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:12:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Kstd[m[K’?
+[11.340s]    12 |         subscription_ = this->create_subscription<std_msgs::msg::[01;31m[Kstd[m[K>(
+[11.340s]       |                                                                  [01;31m[K^~~[m[K
+[11.340s] In file included from [01m[K/usr/include/c++/11/csignal:41[m[K,
+[11.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[11.341s]                  from [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:1[m[K:
+[11.342s] [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h:278:11:[m[K [01;36m[Knote: [m[K‘[01m[Kstd[m[K’ declared here
+[11.342s]   278 | namespace [01;36m[Kstd[m[K
+[11.343s]       |           [01;36m[K^~~[m[K
+[11.358s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:12:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGPSSubscriber::create_subscription<<expression error> >(const char [9], int, std::_Bind_helper<false, void (GPSSubscriber::*)(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >), GPSSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+[11.359s]    12 |         subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::std>([m[K
+[11.359s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[11.360s]    13 | [01;31m[K            "gps_data", 10, std::bind(&GPSSubscriber::topic_callback, this, _1))[m[K;
+[11.360s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.361s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.362s]                  from [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:1[m[K:
+[11.363s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[11.363s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[11.364s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[11.364s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.364s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:12:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.365s]    12 |         subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::std>([m[K
+[11.365s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[11.366s]    13 | [01;31m[K            "gps_data", 10, std::bind(&GPSSubscriber::topic_callback, this, _1))[m[K;
+[11.366s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.371s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:[m[K In member function ‘[01m[Kvoid GPSSubscriber::topic_callback(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr)[m[K’:
+[11.371s] [01m[K/home/trung/test_subscriber_ws/src/gps_listener/src/gps_subscriber.cpp:17:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.372s]    17 |     void topic_callback([01;35m[Kconst std_msgs::msg::Float32::SharedPtr msg[m[K)
+[11.372s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[13.156s] gmake[2]: *** [CMakeFiles/gps_subscriber.dir/build.make:76: CMakeFiles/gps_subscriber.dir/src/gps_subscriber.cpp.o] Error 1
+[13.157s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gps_subscriber.dir/all] Error 2
+[13.158s] gmake: *** [Makefile:146: all] Error 2
+[13.166s] Invoked command in '/home/trung/test_subscriber_ws/build/gps_listener' returned '2': CMAKE_PREFIX_PATH=/home/trung/map_listener_ws/install/firebase_interface:/opt/ros/humble /usr/bin/cmake --build /home/trung/test_subscriber_ws/build/gps_listener -- -j4 -l4

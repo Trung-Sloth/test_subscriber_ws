@@ -18,9 +18,11 @@ private:
     {
         double lat = msg->x;
         double lng = msg->y;
-        double a = lat+lng;
-        RCLCPP_INFO(this->get_logger(), "a=%.6f",
-                    a);
+        // double a = lat+lng;
+        // RCLCPP_INFO(this->get_logger(), "Kinh do - lng = %.6f\nVi do - lat = %.6f",
+        //             lng,lat);
+        printf("Kinh do - lng = %.6f\nVi do - lat = %.6f\n\n",
+                     lng,lat);
     }
 
     rclcpp::Subscription<geometry_msgs::msg::Point>::SharedPtr subscription_;
