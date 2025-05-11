@@ -1,5 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
-#include "geometry_msgs/msg/point.hpp"
+// #include "geometry_msgs/msg/point.hpp"
+#include "std_msgs/msg/float32.hpp"
 
 using std::placeholders::_1;
 
@@ -9,15 +10,17 @@ public:
     GPSSubscriber()
     : Node("gps_subscriber")
     {
-        subscription_ = this->create_subscription<geometry_msgs::msg::Point>(
-            "gps_data", 10, std::bind(&GPSSubscriber::topic_callback, this, _1));
+        lat_sub = this->create_subscription<std_msgs::msg::Float32>(
+            "lat", 10, std::bind(&GPSSubscriber::topic_callback, this, _1));
+        lng_sub = this->create_subscription<std_msgs::msg::Float32>(
+            "lng", 10, std::bind(&GPSSubscriber::topic_callback, this, _1));
     }
 
 private:
-    void topic_callback(const geometry_msgs::msg::Point::SharedPtr msg)
+    void topic_callback(const std_msgs::msg::Float32::SharedPtr msg)
     {
-        double lat = msg->x;
-        double lng = msg->y;
+        double lat = msg->lat;
+        double lng = msg->lng;
         // double a = lat+lng;
         // RCLCPP_INFO(this->get_logger(), "Kinh do - lng = %.6f\nVi do - lat = %.6f",
         //             lng,lat);
@@ -25,7 +28,7 @@ private:
                      lng,lat);
     }
 
-    rclcpp::Subscription<geometry_msgs::msg::Point>::SharedPtr subscription_;
+    rclcpp::Subscription<std_msgs::msg::Float32>::SharedPtr subscription_;
 };
 
 int main(int argc, char * argv[])
