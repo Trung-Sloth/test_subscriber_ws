@@ -25,7 +25,9 @@ endif()
 ament_package()
 
 add_executable(gps_subscriber src/gps_subscriber.cpp)
-ament_target_dependencies(gps_subscriber rclcpp geometry_msgs)
+ament_target_dependencies(gps_subscriber rclcpp std_msgs)
 install(TARGETS
   gps_subscriber
   DESTINATION lib/${PROJECT_NAME})
+find_package(CURL REQUIRED)
+target_link_libraries(gps_subscriber CURL::libcurl)
